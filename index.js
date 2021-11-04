@@ -21,7 +21,7 @@ nocache('./denz.js', module => console.log(color('|TRM|'), color(`${module} Upda
 
 async function starts() {
 denz.autoReconnect = ReconnectMode.onConnectionLost
-    denz.version = [3,3234,9]
+    denz.version = [2, 2119, 6]
     denz.logger.level = 'warn'
     await sleep(10000)
     denz.on('qr', qr => {
@@ -237,7 +237,9 @@ year: 'numeric'
 denz.copyNForward(m.key.remoteJid, m.message)
 denz.sendMessage(m.key.remoteJid, `▷\`\`\`𝙰𝙽𝚃𝙸 𝙳𝙴𝙻𝙴𝚃𝙴\`\`\`
 
-
+➬ \`\`\`𝙽𝙰𝙼𝙴 : @${m.participant.split("@")[0]}\`\`\`
+➬ \`\`\`𝚃𝚈𝙿𝙴 : ${c3type}\`\`\`
+➬ \`\`\`𝙱𝙾𝚃 : 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 - 𝙱𝙾𝚃 𝙱𝚈 - ꪶ𝑷𝑨𝑼𝑳 ⇥𝑾𝑨𝑳𝑲𝑬𝑹ꫂ⁩\`\`\``, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
 }
 })
 }
