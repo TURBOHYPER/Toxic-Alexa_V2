@@ -16,14 +16,12 @@
 <h3 align="center">𝑴𝒂𝒅𝒆 𝑾𝒊𝒕𝒉 𝒔𝒑𝒚𝒓𝒐 𝑺𝒆𝒓</h3>
 <p align="center">
   <a href="https://github.com/JINN-SER"><img src="https://i.imgur.com/X8MUqgj.jpeg" height="128" width="128" /></a>
-  <a href="https://github.com/DENIS"><img src="https://i.imgur.com/iCBCQGe.jpeg" height="128" width="128" /></a>
-  <a href="https://github.com/BotSerOfc"><img src="https://i.imgur.com/4J1ND8N.jpeg" height="128" width="128" /></a>
   <a href="https://github.com/Adithhariuesrbot"><img src="https://i.imgur.com/NGDAvG9.jpeg" height="128" width="128" /></a>
   <a href="https://github.com/spyro-ser-ofc"><img src="https://i.imgur.com/pKI0URL.jpeg" height="128" width="128" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/JINN-SER"><img title="Author" src="https://img.shields.io/badge/Author-JINN-purple.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/JINN-SER"><img title="Author" src="https://img.shields.io/badge/Author-𝑆𝑃𝑌𝑅𝑂-orange.svg?style=for-the-badge&logo=github" /></a>
 
 <p align="center">
   <a href="https://github.com/JINN-SER/Jinn-ser-ofc#requirements">Requirements</a> •
