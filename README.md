@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://www.linkpicture.com/q/20210916_102618.jpg" alt="JINN SER" width="500" />
+<img src="https://i.imgur.com/Mq6kYc4.jpeg" alt="𝑺𝑷𝒀𝑹𝑶 𝑺𝑬𝑹" width="500" />
 
 # JINN-SER
 
