@@ -1098,7 +1098,7 @@ menu =`━━━━━━━━━━━━━━━━
 
 ༆☞ɴɪᴊɪɴ⁴⁰⁴ / ☞ʜᴜsɴɪ⁴⁰⁴༄
 ʟᴏᴠᴇ ʏᴏᴜ ᴀʟʟ!`
-sendButLocation(from, `${menu}`, "ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴", {jpegThumbnail: fs.readFileSync('./denz.jpg')}, [{buttonId:`about`,buttonText:{displayText:'ᴀʙᴏᴜᴛ'},type:1},{buttonId:`menu`,buttonText:{displayText:'ᴍᴇɴᴜ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
+sendButLocation(from, `${menu}`, "ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴", {jpegThumbnail: fs.readFileSync('./denz.jpg')}, [{buttonId: `script`, buttonText: {displayText: 'ɢɪᴛ'}, type: 1},{buttonId: `credit`, buttonText: {displayText: 'ᴄʀᴇᴀᴛᴏʀs'}, type: 1}], {contextInfo: { mentionedJid: [otod]}})
 break
 case 'alive':
 denz.sendMessage(from, 'ᴡᴀɪᴛ ʙʀᴏ🙂', text, {quoted: ftok})
@@ -1655,7 +1655,7 @@ break
 					denz.sendMessage(from, 'Question : *'+rate+'*\n\nAnswer : '+ te+'%', text, { quoted: mek })
 					break
 				case 'script':
-		case 'sc':
+		case 'git':
 		case 'sourcecode':
 		anu =`╭─➤ * ī.ᴀᴍ/ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴*
 │       ❑  *sᴄʀɪᴘᴛ*
@@ -3781,7 +3781,7 @@ denz.sendMessage(from, `*ʜɪ ʙʀᴏ ${pushname}*
 ┃𒈒 *ᴄʀᴇᴀᴛᴏʀ* : @917025868709
 ┃𒈒 *sᴘᴇᴇᴅ* : 00065
 ┗━━𒆜
-*ᴘʀɪᴠᴀᴛᴇ ʙᴏᴛ ᴀɴɴ ᴍᴡᴏɴᴇ*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "ꪶ͢𝑆𝐾𝑌𝐿𝐼𝑁𝐸ꫂ⁩",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg')}}})
+*ᴘʀɪᴠᴀᴛᴇ ʙᴏᴛ ᴀɴɴ ᴍᴡᴏɴᴇ*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: " ī.ᴀᴍ/ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg')}}})
 break
 case 'donate':
 	gambar = fs.readFileSync('./denz.jpg')
