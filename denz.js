@@ -3764,8 +3764,7 @@ denz.sendMessage(from, `*ʜɪ ʙʀᴏ ${pushname}*
 ┃𒈒 *ɴᴀᴍᴇ ᴏᴡɴᴇʀ* : ☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴
 ┃𒈒 *ᴄʀᴇᴀᴛᴏʀ* : @917025868709
 ┃𒈒 *sᴘᴇᴇᴅ* : 00065
-┗━━𒆜
-*ᴘʀɪᴠᴀᴛᴇ ʙᴏᴛ ᴀɴɴ ᴍᴡᴏɴᴇ*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: " ī.ᴀᴍ/ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg')}}})
+┗━━𒆜`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: " ī.ᴀᴍ/ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg')}}})
 break
 case 'donate':
 	gambar = fs.readFileSync('./denz.jpg')
@@ -3779,6 +3778,31 @@ but = [
           { buttonId: `owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 }
         ]
         sendButLocation(from, teksnya, teks, gambar, but)
+break
+case 'alive':
+	teksnya = `╔══╗╔╗─╔══╗╔╗─╔╗╔═╗  
+║╔╗║║║─╚║║╝║╚╦╝║║╦╝  
+║╠╣║║╚╗╔║║╗╚╗║╔╝║╩╗  
+╚╝╚╝╚═╝╚══╝─╚═╝─╚═╝  
+
+*╭➤ 𝐈𝐀𝐌 𝐒𝐓𝐈𝐋𝐋 𝐀𝐋𝐈𝐕𝐄 𝐁𝐑𝐎*»
+*│❖ Oᴡɴᴇʀ : ☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴*
+*│❖ Bᴏᴛ ɴᴀᴍᴇ :  ī.ᴀᴍ/ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴*
+*│❖ Wᴏʀᴋ ᴛʏᴘᴇ : ${publik ? 'public' : 'self'}*
+*│❖ Pʀᴇғɪx : ${multi ? 'Multi Prefix' : 'No Prefix'}*     
+*╰────────────────❋ཻུ۪۪⸙*
+*⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘*
+         * ī.ᴀᴍ/ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴*
+     
+*╭◪ ᴄᴏᴅᴅᴇᴅ ʙʏ ʜᴜ5ɴɪ53ʀ*
+*╰─────────────────❋ཻུ۪۪⸙*`
+teks =
+`©☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴`
+but = [
+          { buttonId: `menu`, buttonText: { displayText: 'ᴍᴇɴᴜ' }, type: 1 },
+          { buttonId: `owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 }
+        ]
+        sendButLocation(from, teksnya, teks, {jpegThumbnail: fs.readFileSync('./denz.jpg')}, but)
 break
 			case 'setbio':
 				if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
