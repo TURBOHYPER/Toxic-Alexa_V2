@@ -1098,7 +1098,7 @@ menu =`━━━━━━━━━━━━━━━━
 
 ༆☞ɴɪᴊɪɴ⁴⁰⁴ / ☞ʜᴜsɴɪ⁴⁰⁴༄
 ʟᴏᴠᴇ ʏᴏᴜ ᴀʟʟ!`
-sendButLocation(from, `${menu}`, "©☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴", {jpegThumbnail:gambar""}, [{buttonId:`about`,buttonText:{displayText:'ᴀʙᴏᴜᴛ'},type:1},{buttonId:`donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
+sendButLocation(from, `${menu}`, "©☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴", {jpegThumbnail: gambar}, [{buttonId:`about`,buttonText:{displayText:'ᴀʙᴏᴜᴛ'},type:1},{buttonId:`donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
 break
 case 'menu':
 case 'p':
