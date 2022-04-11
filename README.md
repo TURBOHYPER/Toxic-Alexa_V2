@@ -1,33 +1,30 @@
 <div align="center">
-<img src="https://i.imgur.com/Mq6kYc4.jpeg" alt="𝑺𝑷𝒀𝑹𝑶 𝑺𝑬𝑹" width="500" />
+<img src="https://i.ibb.co/dJ7cjxc/banner.png" alt="ꪶ͢ʜᴜsɴɪ sᴇʀꫂ⁩" width="500" />
 
-# 𝑺𝑷𝒀𝑹𝑶 𝑺𝑬𝑹 𝑩𝑶𝑻
-
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+SPYRO-SER+WA+Bot+repo;Created+by+spyro;This+is+a+Featured+bot;With+Love+SPYRO-SER)](https://git.io/typing-svg)
-
+#  ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴
 </div>
 <p align="center">
-  <a href="https://instagram.com/Spyro_ser"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
-  <a href="https://wa.me/918590299146"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <a href="https://instagram.com/Husni_ser"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://wa.me/917025868709"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 ## `Deploy`
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/JINN-SER/jinn-ser-ofc/)
-<h3 align="center">𝑴𝒂𝒅𝒆 𝑾𝒊𝒕𝒉 𝒔𝒑𝒚𝒓𝒐 𝑺𝒆𝒓</h3>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nijin-husni/MAALUTTY_V4/)
+<h3 align="center">Developers</h3>
 <p align="center">
-  <a href="https://github.com/JINN-SER"><img src="https://i.imgur.com/X8MUqgj.jpeg" height="128" width="128" /></a>
-  <a href="https://github.com/Adithhariuesrbot"><img src="https://i.imgur.com/NGDAvG9.jpeg" height="128" width="128" /></a>
+  <a href="https://github.com/nijin-husni"><img src="https://github.com/nijin-husni.png" height="128" width="128" /></a>
+  <a href="https://github.com/pepesir"><img src="https://github.com/pepesir.png" height="128" width="128" /></a>
   <a href="https://github.com/spyro-ser-ofc"><img src="https://i.imgur.com/pKI0URL.jpeg" height="128" width="128" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/JINN-SER"><img title="Author" src="https://img.shields.io/badge/Author-𝑆𝑃𝑌𝑅𝑂-orange.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/nijin-husni"><img title="Author" src="https://img.shields.io/badge/Author-𝑵𝑰𝑱𝑰𝑵 𝑨𝑵𝑫 𝑯𝑼𝑺𝑵𝑰-orange.svg?style=for-the-badge&logo=github" /></a>
 
 <p align="center">
-  <a href="https://github.com/JINN-SER/Jinn-ser-ofc#requirements">Requirements</a> •
-  <a href="https://github.com/JINN-SER/Jinn-ser-ofc#instalasi">Installation</a> •
-  <a href="https://github.com/JINN-SER/Jinn-ser-ofc#features">Features</a> •
-  <a href="https://github.com/JINN-SER/Jinn-ser-ofc#thanks-to">Thanks to</a>
+  <a href="https://github.com/nijin-husni/MAALUTTY_V4#requirements">Requirements</a> •
+  <a href="https://github.com/nijin-husni/MAALUTTY_V4#instalasi">Installation</a> •
+  <a href="https://github.com/nijin-husni/MAALUTTY_V4#features">Features</a> •
+  <a href="https://github.com/nijin-husni/MAALUTTY_V4#thanks-to">Thanks to</a>
 </p>
 </div>
 
@@ -46,19 +43,19 @@
 # Installation
 ## For Windows
 ```bash
-git clone https://github.com/JINN-SER/jinn-sir-ofc
-cd jinn-ser-ofc
+git clone https://github.com/nijin-husni/MAALUTTY_V4
+cd MAALUTTY_V4
 npm install
-node main.js
+node index.js
 ```
 ## For Termux
 ```bash
 apt update && apt upgrade
 pkg update && pkg upgrade
 pkg install git
-git clone https://github.com/JINN-SER/jinn-ser-ofc
+git clone https://github.com/nijin-husni/MAALUTTY_V4
 ls
-cd jinn-sir-ofc
+cd MAALUTTY_V4
 npm i -g npm@6.14.14
 npm install
 npm audit
@@ -67,10 +64,4 @@ npm start
 ```
 
 # Features
-- [Features](https://github.com/JINN-SER/jinn-ser-ofc/blob/master/Bosco.js)
-
-# THANKS TO
-* [`JinnSer`](https://github.com/JINN-SER)
-* [`DenisSer`](https://github.com/DENIS)
-* [`BotSer`](https://github.com/BotSerOfc)
-* [`AdithSer`](https://github.com/Adithhariuesrbot)
+- [Features](https://github.com/nijin-husni/MAALUTTY_V4/blob/master/Bosco.js)
