@@ -1057,7 +1057,7 @@ data = fs.readFileSync('./lib/logo.js');
 jsonData = JSON.parse(data);
 randIndex = Math.floor(Math.random() * jsonData.length);
 randKey = jsonData[randIndex];
-gambar = await getBuffer(randKey.result)
+gambar = fs.readFileSync('./denz.jpg')
 menu =`━━━━━━━━━━━━━━━━
 
 
@@ -1098,11 +1098,7 @@ menu =`━━━━━━━━━━━━━━━━
 
 ༆☞ɴɪᴊɪɴ⁴⁰⁴ / ☞ʜᴜsɴɪ⁴⁰⁴༄
 ʟᴏᴠᴇ ʏᴏᴜ ᴀʟʟ!`
-but = [
-          { buttonId: `about`, buttonText: { displayText: 'ᴀʙᴏᴜᴛ' }, type: 1 },
-          { buttonId: `credit`, buttonText: { displayText: 'ᴄʀᴇᴅɪᴛs' }, type: 1 }
-        ]
-sendButLocation(from, `${menu}`, "ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴", {jpegThumbnail: fs.readFileSync('./denz.jpg')},but , {contextInfo: { mentionedJid: [otod]}})
+sendButLocation(from, `${menu}`, "©☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴", {jpegThumbnail:gambar""}, [{buttonId:`about`,buttonText:{displayText:'ᴀʙᴏᴜᴛ'},type:1},{buttonId:`donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
 break
 case 'menu':
 case 'p':
@@ -3778,31 +3774,6 @@ but = [
           { buttonId: `owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 }
         ]
         sendButLocation(from, teksnya, teks, gambar, but)
-break
-case 'alive':
-	teksnya = `╔══╗╔╗─╔══╗╔╗─╔╗╔═╗  
-║╔╗║║║─╚║║╝║╚╦╝║║╦╝  
-║╠╣║║╚╗╔║║╗╚╗║╔╝║╩╗  
-╚╝╚╝╚═╝╚══╝─╚═╝─╚═╝  
-
-*╭➤ 𝐈𝐀𝐌 𝐒𝐓𝐈𝐋𝐋 𝐀𝐋𝐈𝐕𝐄 𝐁𝐑𝐎*»
-*│❖ Oᴡɴᴇʀ : ☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴*
-*│❖ Bᴏᴛ ɴᴀᴍᴇ :  ī.ᴀᴍ/ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴*
-*│❖ Wᴏʀᴋ ᴛʏᴘᴇ : ${publik ? 'public' : 'self'}*
-*│❖ Pʀᴇғɪx : ${multi ? 'Multi Prefix' : 'No Prefix'}*     
-*╰────────────────❋ཻུ۪۪⸙*
-*⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘*
-         * ī.ᴀᴍ/ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴*
-     
-*╭◪ ᴄᴏᴅᴅᴇᴅ ʙʏ ʜᴜ5ɴɪ53ʀ*
-*╰─────────────────❋ཻུ۪۪⸙*`
-teks =
-`©☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴`
-but = [
-          { buttonId: `menu`, buttonText: { displayText: 'ᴍᴇɴᴜ' }, type: 1 },
-          { buttonId: `owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 }
-        ]
-        sendButLocation(from, teksnya, teks, {jpegThumbnail: fs.readFileSync('./denz.jpg')}, but)
 break
 			case 'setbio':
 				if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
