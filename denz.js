@@ -1098,7 +1098,11 @@ menu =`━━━━━━━━━━━━━━━━
 
 ༆☞ɴɪᴊɪɴ⁴⁰⁴ / ☞ʜᴜsɴɪ⁴⁰⁴༄
 ʟᴏᴠᴇ ʏᴏᴜ ᴀʟʟ!`
-sendButLocation(from, `${menu}`, "ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴", {jpegThumbnail: fs.readFileSync('./denz.jpg')}, [{buttonId: `script`, buttonText: {displayText: 'ɢɪᴛ'}, type: 1},{buttonId: `credit`, buttonText: {displayText: 'ᴄʀᴇᴀᴛᴏʀs'}, type: 1}], {contextInfo: { mentionedJid: [otod]}})
+but = [
+          { buttonId: `about`, buttonText: { displayText: 'ᴀʙᴏᴜᴛ' }, type: 1 },
+          { buttonId: `credit`, buttonText: { displayText: 'ᴄʀᴇᴅɪᴛs' }, type: 1 }
+        ]
+sendButLocation(from, `${menu}`, "ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴", {jpegThumbnail: fs.readFileSync('./denz.jpg')},but , {contextInfo: { mentionedJid: [otod]}})
 break
 case 'alive':
 denz.sendMessage(from, 'ᴡᴀɪᴛ ʙʀᴏ🙂', text, {quoted: ftok})
@@ -1118,7 +1122,11 @@ menu = `╔══╗╔╗─╔══╗╔╗─╔╗╔═╗
      
 *╭◪ ᴄᴏᴅᴅᴇᴅ ʙʏ ʜᴜ5ɴɪ53ʀ*
 *╰─────────────────❋ཻུ۪۪⸙*`
-sendButLocation(from, `${menu}`, "ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴", {jpegThumbnail: fs.readFileSync('./denz.jpg')}, [{buttonId:`about`,buttonText:{displayText:'ᴀʙᴏᴜᴛ'},type:1},{buttonId:`menu`,buttonText:{displayText:'ᴍᴇɴᴜ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
+but = [
+          { buttonId: `script`, buttonText: { displayText: 'ɢɪᴛ' }, type: 1 },
+          { buttonId: `menu`, buttonText: { displayText: 'ᴍᴇɴᴜ' }, type: 1 }
+        ]
+sendButLocation(from, `${menu}`, "ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴", {jpegThumbnail: fs.readFileSync('./denz.jpg')},but , {contextInfo: { mentionedJid: [otod]}})
 break
 case 'menu':
 case 'p':
@@ -1570,7 +1578,7 @@ for (let i of ownerNumber) {
 const vname = denz.contacts[i] != undefined ? denz.contacts[i].vname || denz.contacts[i].notify : undefined
 ini_list.push({
 "displayName": `Developer ${NamaBot}`,
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;paul walker;;;\nFN:${vname ? `${vname}` : `${denz.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:ɪɴᴅɪᴀ\nEND:VCARD`
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Husni ser;;;\nFN:${vname ? `${vname}` : `${denz.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:ɪɴᴅɪᴀ\nEND:VCARD`
 })
 }
 denz.sendMessage(from, {
@@ -3412,7 +3420,7 @@ break
 								axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
 								.then((a) => {
 								if (Number(filesize) >= 30000) return sendMediaURL(from, thumb, `❏ *𝚈𝚃𝚖𝚙3*\n\n❏ *𝚃𝙸𝚃𝙻𝙴* : ${title}\n❏ *𝙴𝚇𝚃* : MP3\n*Filesize* : ${filesizeF}\n*𝙻𝙸𝙽𝙺* : ${a.data}\n\n_Sorry the duration exceeds the maximum limit, please click the link above_`)
-								const captions = `❏ *𝚈𝚃𝚖𝚙3*\n\n❏ *𝚃𝙸𝚃𝙻𝙴* : ${title}\n❏ *𝙴𝚇𝚃* : MP3\n❏ *𝚂𝙴𝚁𝚅𝙴𝚁* : 𝚈𝚃𝙼𝙿3 , 𝚆𝙰𝙸𝚃 𝙰 𝙼𝙸𝙽𝚄𝚃𝙴_`
+								const captions = `❏ *𝚈𝚃𝚖𝚙3*\n\n❏ *𝚃𝙸𝚃𝙻𝙴* : ${title}\n❏ *𝙴𝚇𝚃* : MP3\n❏ *𝚂𝙴𝚁𝚅??𝚁* : 𝚈𝚃𝙼𝙿3 , 𝚆𝙰𝙸𝚃 𝙰 𝙼𝙸𝙽𝚄𝚃𝙴_`
 								sendMediaURL(from, thumb, captions)
 								sendMediaURL(from, dl_link).catch(() => reply(mess.error.api))
 							})
