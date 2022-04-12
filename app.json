@@ -1,23 +1,29 @@
 {
+"name": "MAALUTTY V4",
+  "description": "Maalutty v4 whatsapp bot by husni and nijin",
+  "repository": "https://github.com/nijin-husni/MAALUTTY_V4",
+  "logo": "i.ibb.co/dJ7cjxc/banner.png",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot"],
 
-  "name": "whatsapp-bot",
+    "buildpacks": [
 
-  "description": "whatsapp bot build with nodejs",
+        {
 
-  "repository": "https://github.com/bot-ser-spyro/spyro",
+            "url": "heroku/nodejs"
 
-  "logo": "https://telegra.ph/file/78132f88d1f80b255ea3f.jpg",
+        },
 
-  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation"]
+        {
 
-  "buildpacks": [{
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
 
-    "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+        },
 
-  }, {
+        {
 
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+            "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
 
-  }]
+        }
 
+    ]
 }
