@@ -1,8 +1,8 @@
 {
-"name": "MAALUTTY V4",
+"name": "MAALUTTY_V4",
   "description": "Maalutty v4 whatsapp bot by husni and nijin",
-  "logo": "https://i.ibb.co/zHgNv57/20220411-170637.png" 
   "repository": "https://github.com/nijin-husni/MAALUTTY_V4",
+  "logo": "https://i.ibb.co/zHgNv57/20220411-170637.png",
   "keywords": ["bot", "whatsapp", "whatsapp-bot"],
 
     "buildpacks": [
