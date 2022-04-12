@@ -8,6 +8,10 @@
   <a href="https://wa.me/917025868709"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
+## `SCAN QR`
+
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@HUSNISERMODZ/MAALUTTYV4)
+
 ## `Deploy`
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nijin-husni/MAALUTTY_V4/)
 <h3 align="center">Developers</h3>
