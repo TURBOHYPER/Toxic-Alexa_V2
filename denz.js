@@ -1098,7 +1098,39 @@ menu =`━━━━━━━━━━━━━━━━
 
 ༆☞ɴɪᴊɪɴ⁴⁰⁴ / ☞ʜᴜsɴɪ⁴⁰⁴༄
 ʟᴏᴠᴇ ʏᴏᴜ ᴀʟʟ!`
-sendButLocation(from, `${menu}`, "©☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴", {jpegThumbnail:gambar,name:""}, [{buttonId:`about`,buttonText:{displayText:'ᴀʙᴏᴜᴛ'},type:1},{buttonId:`donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
+sendButLocation(from, `${menu}`, "©☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴", {jpegThumbnail:gambar,name:""}, [{buttonId:`about`,buttonText:{displayText:'ᴀʙᴏᴜᴛ'},type:1},{buttonId:`script`,buttonText:{displayText:'ɢɪᴛ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
+break
+case 'alive':
+denz.sendMessage(from, 'ᴡᴀɪᴛ ʙʀᴏ🙂', text, {quoted: ftok})
+stst = await denz.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
+data = fs.readFileSync('./lib/logo.js');
+jsonData = JSON.parse(data);
+randIndex = Math.floor(Math.random() * jsonData.length);
+randKey = jsonData[randIndex];
+gambar = await getBuffer(randKey.result)
+menu =`━━━━━━━━━━━━━━━━━━
+
+╔══╗╔╗─╔══╗╔╗─╔╗╔═╗  
+║╔╗║║║─╚║║╝║╚╦╝║║╦╝  
+║╠╣║║╚╗╔║║╗╚╗║╔╝║╩╗  
+╚╝╚╝╚═╝╚══╝─╚═╝─╚═╝  
+
+                    ${tampilHari}
+
+╔𒆜𝐈𝐀𝐌 𝐒𝐓𝐈𝐋𝐋 𝐀𝐋𝐈𝐕𝐄 𝐁𝐑𝐎
+║༄Oᴡɴᴇʀ : ☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴
+║༄Bᴏᴛ ɴᴀᴍᴇ :  ī.ᴀᴍ/ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴
+║༄ Pʀᴇғɪx : ${multi ? 'Multi Prefix' : 'No Prefix'}*    
+╚𒆜ᴘʟᴀᴛғᴏʀᴍ : ${os.platform()}
+━━━━━━━━━━━━━━━━━━━
+┏━━━━━━━━━━━━━━━𒈒
+┃      ʜɪ ʙʀᴏ  ${pushname}!😌
+┃      ☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴
+┗━━━━━━━━━━━━━━━𒈒
+         ī.ᴀᴍ/ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴`
+sendButLocation(from, `${menu}`, "©☞ɴɪᴊɪɴ ᴀɴᴅ ʜᴜsɴɪ⁴⁰⁴", {jpegThumbnail:gambar,name:""}, [{buttonId:`menu`,buttonText:{displayText:'ᴍᴇɴᴜ'},type:1},{buttonId:`credit`,buttonText:{displayText:'ᴄʀᴇᴀᴛᴏʀ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
 break
 case 'menu':
 case 'p':
