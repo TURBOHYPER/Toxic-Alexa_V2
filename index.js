@@ -249,7 +249,7 @@ function doProgress()
 	{
 		setTimeout( function() { console.clear(),
 		exec(`screenfetch -A Deepin`, (error, stdout, stderr) => {
-			console.log(stdout), console.log(bgcolor('spyro  ser bot v1', 'cyan'))})}, 200 ) ;
+			console.log(stdout), console.log(bgcolor('maalutty  ser bot v4', 'cyan'))})}, 200 ) ;
 	}
 	else
 	{
