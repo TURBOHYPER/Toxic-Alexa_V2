@@ -1701,7 +1701,6 @@ await denz.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted:
    dtod4 ='0'
    var yez = `
 ╭───𒆜 𝑪𝑹𝑬𝑨𝑻𝑶𝑹𝑺
-│🥂 wa.me/${dtod.split('@')[0]}
 │🥂 wa.me/916380260672
 │🥂 wa.me/919995801023
 ╰───────────────𒈒
