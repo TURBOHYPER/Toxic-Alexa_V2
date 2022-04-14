@@ -1,5 +1,5 @@
 {
-  "name": "MAALUTTY_V4",
+  "name": "Toxic-Alexa_V2",
   "version": "0.0.1",
   "description": "synzx",
   "main": "node index",
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "nijin-husni",
+  "author": "TURBOHYPER",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
