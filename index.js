@@ -207,7 +207,7 @@ console.log(color('|TRM|'), color(`Demote Admin ${num.split('@')[0]} In ${mdata.
   }
 })
 
-
+ 
         
 	denz.on('message-delete', async (m) => {
 if (m.key.remoteJid == 'status@broadcast') return
