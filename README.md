@@ -1,34 +1,36 @@
 <div align="center">
-<img src="https://i.ibb.co/dJ7cjxc/banner.png" alt="ꪶ͢ʜᴜsɴɪ sᴇʀꫂ⁩" width="500" />
+<img src="https://telegra.ph/file/56c7adc490d2797f7efc6.jpg" alt="ꪶ͢Toxic-Alexaꫂ⁩" width="500" />
 
-#  ꪶ͢ᴍ44ʟᴜᴛᴛʏꫂ⁩⁴⁰⁴
+#  ꪶ͢Toxic-Alexaꫂ⁩⁴⁰⁴
 </div>
 <p align="center">
-  <a href="https://instagram.com/Husni_ser"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
-  <a href="https://wa.me/917025868709"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <a href="https://instagram.com/toxic_turbo777"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://wa.me/916380260672"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 ## `SCAN QR`
 
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@HUSNISERMODZ/MAALUTTYV4)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@TURBOHYPER/Toxic-AlexaV2?v=1)
 
 ## `Deploy`
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nijin-husni/MAALUTTY_V4/)
-<h3 align="center">Developers</h3>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TURBOHYPER/Toxic-Alexa_V2)
+## Developers
+  <div align="center">
+    
+  [![Toxic-Turbo](https://github.com/TURBOHYPER.png?size=100)](https://github.com/TURBOHYPER)
+
+[Toxic-Turbo](https://github.com/TURBOHYPER)        
+Developer, Base, Bug Fixes, Modules
+
+  
 <p align="center">
-  <a href="https://github.com/nijin-husni"><img src="https://github.com/nijin-husni.png" height="128" width="128" /></a>
-  <a href="https://github.com/pepesir"><img src="https://github.com/pepesir.png" height="128" width="128" /></a>
-  <a href="https://github.com/spyro-ser-ofc"><img src="https://i.imgur.com/pKI0URL.jpeg" height="128" width="128" /></a>
-</p>
+  <a href="https://github.com/TURBOHYPER"><img title="Author" src="https://img.shields.io/badge/Author-TURBOHYPER-orange.svg?style=for-the-badge&logo=github" /></a>
 
 <p align="center">
-  <a href="https://github.com/nijin-husni"><img title="Author" src="https://img.shields.io/badge/Author-𝑵𝑰𝑱𝑰𝑵 𝑨𝑵𝑫 𝑯𝑼𝑺𝑵𝑰-orange.svg?style=for-the-badge&logo=github" /></a>
-
-<p align="center">
-  <a href="https://github.com/nijin-husni/MAALUTTY_V4#requirements">Requirements</a> •
-  <a href="https://github.com/nijin-husni/MAALUTTY_V4#instalasi">Installation</a> •
-  <a href="https://github.com/nijin-husni/MAALUTTY_V4#features">Features</a> •
-  <a href="https://github.com/nijin-husni/MAALUTTY_V4#thanks-to">Thanks to</a>
+  <a href="https://github.com/TURBOHYPER/Toxic-Alexa_V2#requirements">Requirements</a> •
+  <a href="https://github.com/TURBOHYPER/Toxic-Alexa_V2#instalasi">Installation</a> •
+  <a href="https://github.com/TURBOHYPER/Toxic-Alexa_V2#features">Features</a> •
+  <a href="https://github.com/TURBOHYPER/Toxic-Alexa_V2#thanks-to">Thanks to</a>
 </p>
 </div>
 
@@ -47,8 +49,8 @@
 # Installation
 ## For Windows
 ```bash
-git clone https://github.com/nijin-husni/MAALUTTY_V4
-cd MAALUTTY_V4
+git clone https://github.com/TURBOHYPER/Toxic-Alexa_V2
+cd Toxic-Alexa_V2
 npm install
 node index.js
 ```
@@ -57,9 +59,9 @@ node index.js
 apt update && apt upgrade
 pkg update && pkg upgrade
 pkg install git
-git clone https://github.com/nijin-husni/MAALUTTY_V4
+git clone https://github.com/TURBOHYPER/Toxic-Alexa_V2
 ls
-cd MAALUTTY_V4
+cd Toxic-Alexa_V2
 npm i -g npm@6.14.14
 npm install
 npm audit
@@ -68,4 +70,4 @@ npm start
 ```
 
 # Features
-- [Features](https://github.com/nijin-husni/MAALUTTY_V4/blob/master/Bosco.js)
+- [Features](https://github.com/TURBOHYPER/Toxic-Alexa_V2/blob/master/Bosco.js)
