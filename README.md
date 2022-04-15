@@ -23,9 +23,6 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 
 https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 
-𝗛𝗲𝗿𝗼𝗸𝘂
-https://dashboard.heroku.com
-
 ## Developers
   <div align="center">
     
