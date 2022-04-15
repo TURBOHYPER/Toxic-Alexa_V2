@@ -15,6 +15,17 @@
 ## `Deploy`
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TURBOHYPER/Toxic-Alexa_V2)
 
+ ## `CHANGE SESSION`
+
+[`Click Here`](https://github.com/TURBOHYPER/Toxic-Alexa_V2/blob/master/QRnya.json)
+
+## `SETTINGS`
+
+- CHANGE OWNER NUMBER [Here](https://github.com/TURBOHYPER/Toxic-Alexa_V2/blob/master/settings.json)
+- CHANGE OWNER NAME [Here](https://github.com/TURBOHYPER/Toxic-Alexa_V2/blob/master/settings.json)
+- CHANGE BOT NAME [Here](https://github.com/TURBOHYPER/Toxic-Alexa_V2/blob/master/settings.json)
+
+    
 𝗕𝘂𝗶𝗹𝗱𝗽𝗮𝗰𝗸𝘀
 
 heroku/nodejs
