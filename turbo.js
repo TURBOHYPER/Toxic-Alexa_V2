@@ -84,7 +84,7 @@ const settings = JSON.parse(fs.readFileSync('./settings.json'))
 const kickarea = JSON.parse(fs.readFileSync('./database/kickarea.json'))
 const scommand = JSON.parse(fs.readFileSync('./database/scommand.json'))
 const autosticker = JSON.parse(fs.readFileSync('./database/autosticker.json'))
-
+ 
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
