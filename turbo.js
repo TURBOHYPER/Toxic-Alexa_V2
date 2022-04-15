@@ -1208,6 +1208,7 @@ menu = `❏ 「 *ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ* 」
 ╔𒈒${prefix}ytsearch 「 _sᴇᴀʀᴄʜ_ 」
 ║𒈒${prefix}ytmp4 「 _ʏᴛ ʟɪɴᴋ_ 」
 ║𒈒${prefix}ytmp3 「 _ʏᴛ ʟɪɴᴋ_ 」
+║𒈒${prefix}ig 「 _ʟɪɴᴋ_ 」
 ║𒈒${prefix}play 「 _sᴏɴɢ ɴᴀᴍᴇ_ 」
 ║𒈒${prefix}video 「 _ᴠɪᴅᴇᴏ ɴᴀᴍᴇ_ 」
 ║𒈒${prefix}tinyurl 「 _ɴᴀᴍᴇ_ 」
@@ -1325,7 +1326,7 @@ denz.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./
 break
 //My Api
        case 'maker2d2': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker2?text=${makell}&apikey=${YuzApi}`)
@@ -1333,7 +1334,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 		case 'maker2d3': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3?text=${makell}&apikey=${YuzApi}`)
@@ -1341,7 +1342,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 		case 'maker2d4': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker4?text=${makell}&apikey=${YuzApi}`)
@@ -1349,7 +1350,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'maker3d': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = body.slice(8)
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d?text=${makell}&apikey=${YuzApi}`)
@@ -1357,7 +1358,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'maker3d2': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d/no2?text=${makell}&apikey=${YuzApi}`)
@@ -1365,7 +1366,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'maker3d3': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d/no3?text=${makell}&apikey=${YuzApi}`)
@@ -1373,7 +1374,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'maker3d4': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d/no4?text=${makell}&apikey=${YuzApi}`)
@@ -1381,7 +1382,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'transformer': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker/special/transformer?text=${makell}&apikey=${YuzApi}`)
@@ -1410,7 +1411,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'coffeecup': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/senja?text=${makell}&theme=coffee-cup&apikey=${YuzApi}`)
@@ -1418,7 +1419,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'coffeecup2': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/senja?text=${makell}&theme=coffee-cup2&apikey=${YuzApi}`)
@@ -1426,7 +1427,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'neon': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/metallic?text=${makell}&theme=neon&apikey=${YuzApi}`)
@@ -1434,7 +1435,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 case 'glow': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/metallic?text=${makell}&theme=glow&apikey=${YuzApi}`)
@@ -1442,7 +1443,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'summer': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/alam?text=${makell}&theme=summer&apikey=${YuzApi}`)
@@ -1450,7 +1451,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'flower': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/alam?text=${makell}&theme=flower&apikey=${YuzApi}`)
@@ -1458,7 +1459,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'burn': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/random?text=${makell}&theme=text-burn&apikey=${YuzApi}`)
@@ -1466,7 +1467,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'quote': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/random?text=${makell}&theme=art-quote&apikey=${YuzApi}`)
@@ -1474,7 +1475,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'wooden': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/roses?text=${makell}&theme=wooden-boarch&apikey=${YuzApi}`)
@@ -1482,7 +1483,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'golden': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Toxic-Alexa`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/roses?text=${makell}&theme=golden&apikey=${YuzApi}`)
@@ -1786,8 +1787,8 @@ denz.relayWAMessage(res)
 break
 case 'ig':
 case 'igdl':
-case 'insta':
-if (!c) return reply('Give link?')
+case 'instagram':
+if (!c) return reply('The link?')
 var { igDownloader } = require('./lib/igdown')
    res = await igDownloader(`${c}`).catch(e => {
 reply(mess.error.api)
