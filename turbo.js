@@ -1139,7 +1139,7 @@ let pi=denz["prepareMessageFromContent"](from,{
 "title":"ʜɪ ʙʀᴏ ᴛʜɪs ɪs ʙᴏᴛ ᴍᴇɴᴜ","description":`${""}
      ᴏɪɪ  ${pushname}     
 ╔༆ᴄʀᴇᴀᴛᴏʀ⟼ᴛᴜʀʙᴏ-ᴊɪғɪ
-║༄ᴠᴇʀsɪᴏɴ⟼4.0
+║༄ᴠᴇʀsɪᴏɴ⟼2.0
 ║༄ʙᴏᴛɴᴀᴍᴇ⟼ ᴛᴏxɪᴄ-ᴀʟᴇxᴀ
 ║༄ᴘʀᴇғɪx⟼(!)
 ║༄sᴛᴀᴛᴜs⟼ ${publik ? 'ᴘᴜʙʟɪᴄ ɴᴏᴡ' : 'sᴇʟғ ɴᴏᴡ'} 
