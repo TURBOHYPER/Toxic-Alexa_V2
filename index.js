@@ -233,7 +233,7 @@ turbo.sendMessage(m.key.remoteJid, `▷\`\`\`𝙰𝙽𝚃𝙸 𝙳𝙴𝙻𝙴�
 
 ➬ \`\`\`𝙽𝙰𝙼𝙴 : @${m.participant.split("@")[0]}\`\`\`
 ➬ \`\`\`𝚃𝚈𝙿𝙴 : ${c3type}\`\`\`
-➬ \`\`\`𝙱𝙾𝚃 : 𝙿𝚄𝙱𝙻𝙸𝙲 - 𝙱𝙾𝚃 𝙱𝚈 - ꪶ𝑯𝑼𝑺𝑵𝑰⇥𝑺𝑬𝑹ꫂ⁩⁩\`\`\``, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
+➬ \`\`\`𝙱𝙾𝚃 : 𝙿𝚄𝙱𝙻𝙸𝙲 - 𝙱𝙾𝚃 𝙱𝚈 - Turbo\`\`\``, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
 }
 })
 }
