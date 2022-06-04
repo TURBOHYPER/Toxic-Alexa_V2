@@ -5,7 +5,7 @@
 </div>
 <p align="center">
   <a href="https://instagram.com/toxic_turbo777"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
-  <a href="https://wa.me/916380260672"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <a href="https://wa.me/94703199484"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 ## `SCAN QR`
@@ -13,17 +13,17 @@
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@TURBOHYPER/Toxic-AlexaV2?v=1)
 
 ## `Deploy`
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TURBOHYPER/Toxic-Alexa_V2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kddrfake/Toxic-Alexa_V2)
 
  ## `CHANGE SESSION`
 
-[`Click Here`](https://github.com/TURBOHYPER/Toxic-Alexa_V2/blob/master/QRnya.json)
+[`Click Here`](https://github.com/kddrfake/Toxic-Alexa_V2/blob/master/QRnya.json)
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER [Here](https://github.com/TURBOHYPER/Toxic-Alexa_V2/blob/master/settings.json)
-- CHANGE OWNER NAME [Here](https://github.com/TURBOHYPER/Toxic-Alexa_V2/blob/master/settings.json)
-- CHANGE BOT NAME [Here](https://github.com/TURBOHYPER/Toxic-Alexa_V2/blob/master/settings.json)
+- CHANGE OWNER NUMBER [Here](https://github.com/kddrfake/Toxic-Alexa_V2/blob/master/settings.json)
+- CHANGE OWNER NAME [Here](https://github.com/kddrfake/Toxic-Alexa_V2/blob/master/settings.json)
+- CHANGE BOT NAME [Here](https://github.com/kddrfake/Toxic-Alexa_V2/blob/master/settings.json)
 
     
 𝗕𝘂𝗶𝗹𝗱𝗽𝗮𝗰𝗸𝘀
@@ -37,20 +37,20 @@ https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 ## Developers
   <div align="center">
     
-  [![Toxic-Turbo](https://github.com/TURBOHYPER.png?size=100)](https://github.com/TURBOHYPER)
+  [![Toxic-Turbo](https://github.com/kddrfake.png?size=100)](https://github.com/kddrfake)
 
-[Toxic-Turbo](https://github.com/TURBOHYPER)        
+[Toxic-Turbo](https://github.com/kddrfake)        
 Developer, Base, Bug Fixes, Modules
 
   
 <p align="center">
-  <a href="https://github.com/TURBOHYPER"><img title="Author" src="https://img.shields.io/badge/Author-TURBOHYPER-orange.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/kddrfake"><img title="Author" src="https://img.shields.io/badge/Author-kddrfake-orange.svg?style=for-the-badge&logo=github" /></a>
 
 <p align="center">
-  <a href="https://github.com/TURBOHYPER/Toxic-Alexa_V2#requirements">Requirements</a> •
-  <a href="https://github.com/TURBOHYPER/Toxic-Alexa_V2#instalasi">Installation</a> •
-  <a href="https://github.com/TURBOHYPER/Toxic-Alexa_V2#features">Features</a> •
-  <a href="https://github.com/TURBOHYPER/Toxic-Alexa_V2#thanks-to">Thanks to</a>
+  <a href="https://github.com/kddrfake/Toxic-Alexa_V2#requirements">Requirements</a> •
+  <a href="https://github.com/kddrfake/Toxic-Alexa_V2#instalasi">Installation</a> •
+  <a href="https://github.com/kddrfake/Toxic-Alexa_V2#features">Features</a> •
+  <a href="https://github.com/kddrfake/Toxic-Alexa_V2#thanks-to">Thanks to</a>
 </p>
 </div>
 
@@ -69,7 +69,7 @@ Developer, Base, Bug Fixes, Modules
 # Installation
 ## For Windows
 ```bash
-git clone https://github.com/TURBOHYPER/Toxic-Alexa_V2
+git clone https://github.com/kddrfake/Toxic-Alexa_V2
 cd Toxic-Alexa_V2
 npm install
 node index.js
@@ -79,7 +79,7 @@ node index.js
 apt update && apt upgrade
 pkg update && pkg upgrade
 pkg install git
-git clone https://github.com/TURBOHYPER/Toxic-Alexa_V2
+git clone https://github.com/kddrfake/Toxic-Alexa_V2
 ls
 cd Toxic-Alexa_V2
 npm i -g npm@6.14.14
@@ -90,4 +90,4 @@ npm start
 ```
 
 # Features
-- [Features](https://github.com/TURBOHYPER/Toxic-Alexa_V2/blob/master/Bosco.js)
+- [Features](https://github.com/kddrfake/Toxic-Alexa_V2/blob/master/Bosco.js)
